@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9AE80D902590A43D00132788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE80D8F2590A43D00132788 /* AppDelegate.swift */; };
-		9AE80D922590A43D00132788 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE80D912590A43D00132788 /* SceneDelegate.swift */; };
 		9AE80D942590A43D00132788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE80D932590A43D00132788 /* ViewController.swift */; };
 		9AE80D972590A43D00132788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE80D952590A43D00132788 /* Main.storyboard */; };
 		9AE80D992590A44200132788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE80D982590A44200132788 /* Assets.xcassets */; };
 		9AE80D9C2590A44200132788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE80D9A2590A44200132788 /* LaunchScreen.storyboard */; };
+		9AE80DA42590A4A700132788 /* test.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9AE80DA32590A4A700132788 /* test.rtf */; };
+		9AE80DA62590A97500132788 /* test2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9AE80DA52590A97500132788 /* test2.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9AE80D8C2590A43D00132788 /* RTFImportTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTFImportTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE80D8F2590A43D00132788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AE80D912590A43D00132788 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9AE80D932590A43D00132788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9AE80D962590A43D00132788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AE80D982590A44200132788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AE80D9B2590A44200132788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AE80D9D2590A44200132788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE80DA32590A4A700132788 /* test.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = test.rtf; sourceTree = "<group>"; };
+		9AE80DA52590A97500132788 /* test2.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = test2.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				9AE80D8F2590A43D00132788 /* AppDelegate.swift */,
-				9AE80D912590A43D00132788 /* SceneDelegate.swift */,
 				9AE80D932590A43D00132788 /* ViewController.swift */,
 				9AE80D952590A43D00132788 /* Main.storyboard */,
 				9AE80D982590A44200132788 /* Assets.xcassets */,
 				9AE80D9A2590A44200132788 /* LaunchScreen.storyboard */,
+				9AE80DA32590A4A700132788 /* test.rtf */,
+				9AE80DA52590A97500132788 /* test2.rtf */,
 				9AE80D9D2590A44200132788 /* Info.plist */,
 			);
 			path = RTFImportTest;
@@ -127,6 +130,8 @@
 			files = (
 				9AE80D9C2590A44200132788 /* LaunchScreen.storyboard in Resources */,
 				9AE80D992590A44200132788 /* Assets.xcassets in Resources */,
+				9AE80DA42590A4A700132788 /* test.rtf in Resources */,
+				9AE80DA62590A97500132788 /* test2.rtf in Resources */,
 				9AE80D972590A43D00132788 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +145,6 @@
 			files = (
 				9AE80D942590A43D00132788 /* ViewController.swift in Sources */,
 				9AE80D902590A43D00132788 /* AppDelegate.swift in Sources */,
-				9AE80D922590A43D00132788 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
